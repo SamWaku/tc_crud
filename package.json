@@ -4,7 +4,8 @@
   "description": "some typescript crud app",
   "main": "server.tsx",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "start": "nodemon server.ts"
   },
   "repository": {
     "type": "git",

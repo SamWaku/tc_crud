@@ -1,3 +1,5 @@
 import { prisma } from "../config/db";
 
-exports.UserModel
+const UserModel = prisma.user
+
+export default UserModel;
