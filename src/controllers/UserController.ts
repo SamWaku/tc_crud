@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import { ServiceContainer } from "../services/Index";
-import UserService from "../services/UserService";
 
 const UserController = (ServiceContainer: ServiceContainer) => {
   const CreateUser = async (req: Request, res: Response) => {

@@ -4,6 +4,7 @@ import UserRepository, { UserData } from "../repositories/UserRepository";
 const UserService = () => {
   const CreateUser = async (data: UserData): Promise<Response> => {
     let { email } = data;
+    console.log(email);
 
     const alreadyexists = await UserModel.findUnique({
       where: {
